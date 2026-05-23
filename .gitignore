@@ -1,0 +1,141 @@
+# Vivado Design Suite
+*.xpr
+*.cache/
+*.sim/
+*.runs/
+*.hw/
+.Xil/
+*.bit
+*.ltx
+*.log
+*.jou
+*.str
+vivado*.jou
+vivado*.log
+vivado_pid*.str
+.vivado/
+
+# Generated bitstreams and implementation files
+*.rpt
+*.dcp
+*.edf
+*.bak
+*.backup
+
+# IP catalog and generated files
+*.ip_user_files/
+*.ip_user_files/*
+*.generated_files/
+*.generated_files/*
+*.xise
+*.gise
+
+# Simulation and behavioral simulation artifacts
+work/
+*.vcd
+*.wdb
+*.wave
+*.fsdb
+webtalk.jou
+webtalk.log
+
+# Xilinx ISim artifacts
+*.xsim/
+*.tb
+*.fuse*
+fuse.log
+glbl.v
+
+# Synthesis and Implementation outputs
+*.ngc
+*.ncd
+*.pcf
+*.par
+*.ise
+*.map
+*.rbt
+*.exo
+*.surv
+*.ucf~
+
+# Backup files
+*.v~
+*.xdc~
+*.tcl~
+*.txt~
+*~
+*.bak
+*.backup
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Editor temporary files
+*#*
+.#*
+
+# HLS artifacts
+*.hls/
+hls_output/
+
+# Synplify Pro artifacts
+*.synplify
+*.lpc
+*.lpf
+
+# PlanAhead artifacts
+planAhead.log
+PlanAhead.jou
+PlanAhead.log
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+ISE_Sim
+
+# Block design artifacts
+*.bd_generation_info
+*.bd_simulation_info
+
+# Misc
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Documentation artifacts
+docs/*.pdf
+docs/*.html
+
+# Large files (optional - uncomment if needed)
+# *.bit
+# *.bin
+
+# Keep actual source files and constraints
+!*.v
+!*.xdc
+!*.tcl
+!*.md
+!*.txt
