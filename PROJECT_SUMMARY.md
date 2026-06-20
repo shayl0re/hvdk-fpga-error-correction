@@ -150,18 +150,6 @@ hvdk-fpga-error-correction/
 4. Deep-dive into **HVDK_THEORY.md** to understand the math
 5. Run on hardware, experiment with modifications
 
-### For Educators
-1. Use as a complete project template
-2. Assign parts: students build encoder (FPGA1) or decoder (FPGA2)
-3. Require documentation: students write SETUP_GUIDE for their variant
-4. Extend: ask students to implement different parity schemes (SEC-DED, CRC, etc.)
-
-### For Developers / Open Source
-1. Clone the repo
-2. Customize for your use case (baud rate, grid size, visualization)
-3. Contribute improvements back (better error messages, more test cases, etc.)
-4. Reference in your own projects
-
 ---
 
 ## Before You Push to GitHub
@@ -219,26 +207,6 @@ git push -u origin main
 
 ---
 
-## After GitHub
-
-### Suggested Next Steps:
-1. **Add GitHub badges** in README (Build status, License, etc.)
-2. **Enable GitHub Pages** for documentation site
-3. **Create GitHub Issues** template for bug reports
-4. **Create GitHub Discussions** for Q&A
-5. **Add GitHub Actions** for automated testing (simulation)
-6. **Create releases** with versioned bitstreams
-7. **Request reviews** from peers
-8. **Gather feedback** for improvements
-
-### Community Engagement:
-- Share on FPGA forums (Xilinx forums, EEVblog, Reddit r/FPGA)
-- Write a blog post explaining the project
-- Create a YouTube demo video
-- Consider academic publication (IEEE, ACM)
-
----
-
 ## Statistics
 
 - **Lines of Verilog**: ~650 (actual code)
@@ -257,7 +225,6 @@ git push -u origin main
 2. **Review SETUP_GUIDE.md** for step-by-step help
 3. **Read HVDK_THEORY.md** if confused about the algorithm
 4. **Open a GitHub issue** with detailed description, hardware setup, error messages
-5. **Email the author** if GitHub issue isn't available yet
 
 ### Contributing:
 - Found a bug? Open an issue
@@ -306,4 +273,3 @@ GitHub repository. https://github.com/YOUR_USERNAME/REPO_NAME
 
 ---
 
-**You're all set! The repository is complete and ready to share with the world.** 🚀
