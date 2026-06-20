@@ -19,7 +19,7 @@ This project demonstrates real-time error injection and correction across a mult
 |-----------|----------|---------|
 | **Basys3 FPGA Board** | 2 | Xilinx Artix-7, xc7a35tcpg236-1 |
 | **8×8 LED Matrix (Max7219)** | 1 | Connected to FPGA2 for visualization |
-| **Jumper Wires** | ~5 | UART TX/RX lines between FPGAs |
+| **Jumper Wires** | ~8 | UART TX/RX lines between FPGAs |
 | **USB Cable** | 2 | For programming & power (one per board) |
 | **PC/Laptop** | 2 | Laptop1: Vivado (FPGA1 control), Laptop2: PuTTY (FPGA2 monitoring) |
 
@@ -302,19 +302,6 @@ See **`docs/TROUBLESHOOTING.md`** for detailed debugging steps.
 
 ---
 
-## License
-
-This project is open-source. Feel free to use, modify, and distribute for educational and commercial purposes.
-
----
-
-## Author
-
-**Shivani** – Student FPGA Developer  
-Final Project: Hardware-Based Error Correction Using HVDK Parity Method
-
----
-
 ## Changelog
 
 ### v1.0 (Initial Release)
@@ -326,12 +313,6 @@ Final Project: Hardware-Based Error Correction Using HVDK Parity Method
 
 ---
 
-## Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with detailed description
 
 For questions or issues, open a GitHub issue.
 
