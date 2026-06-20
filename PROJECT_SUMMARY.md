@@ -1,6 +1,5 @@
 # Project Summary: HVDK Error Correction on Dual Basys3 FPGAs
-
-**Author**: Shivani  
+  
 **Date**: May 23, 2026  
 **Status**: Complete & Ready for GitHub
 
